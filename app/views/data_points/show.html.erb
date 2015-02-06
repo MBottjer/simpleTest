@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @data_point.time %>
+</p>
+
+<p>
+  <strong>Bid:</strong>
+  <%= @data_point.bid %>
+</p>
+
+<p>
+  <strong>Ask:</strong>
+  <%= @data_point.ask %>
+</p>
+
+<%= link_to 'Edit', edit_data_point_path(@data_point) %> |
+<%= link_to 'Back', data_points_path %>
